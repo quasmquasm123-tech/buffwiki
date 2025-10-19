@@ -88,142 +88,226 @@ function loadManualEvents() {
 
   allEvents = [
       {
-    id: 'nhl_1',
-    league: 'NHL',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-    homeTeam: 'Buffalo Sabres',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/buf.png',
-    awayTeam: 'Ottawa Senators',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/ott.png',
-    date: 'Oct 15, 2024',
-    time: '4:00 AM ET',
-    location: 'KeyBank Center',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=301',
-      'https://lotusgamehd.xyz/lotushd.php?hd=302'
-    ]
-  },
-  {
-    id: 'nhl_2',
-    league: 'NHL',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-    homeTeam: 'Detroit Red Wings',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/det.png',
-    awayTeam: 'Florida Panthers',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/fla.png',
-    date: 'Oct 15, 2024',
-    time: '4:00 AM ET',
-    location: 'Little Caesars Arena',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=303',
-      'https://lotusgamehd.xyz/lotushd.php?hd=304'
-    ]
-  },
-  {
-    id: 'nhl_3',
-    league: 'NHL',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-    homeTeam: 'St. Louis Blues',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/stl.png',
-    awayTeam: 'Chicago Blackhawks',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/chi.png',
-    date: 'Oct 15, 2024',
-    time: '6:30 AM ET',
-    location: 'Enterprise Center',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=305',
-      'https://lotusgamehd.xyz/lotushd.php?hd=306'
-    ]
-  },
-  {
-    id: 'nhl_4',
-    league: 'NHL',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-    homeTeam: 'Utah Hockey Club',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/utah.png',
-    awayTeam: 'Calgary Flames',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png',
-    date: 'Oct 15, 2024',
-    time: '6:30 AM ET',
-    location: 'Delta Center',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=307',
-      'https://lotusgamehd.xyz/lotushd.php?hd=308'
-    ]
-  },
-
-     {
-    id: 'nba_1',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Charlotte Hornets',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cha.png',
-    awayTeam: 'Memphis Grizzlies',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png',
-    date: 'Oct 15, 2024',
-    time: '4:00 AM ET',
-    location: 'Spectrum Center',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=401',
-      'https://lotusgamehd.xyz/lotushd.php?hd=402'
-    ]
-  },
-  {
-    id: 'nba_2',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Boston Celtics',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
-    awayTeam: 'Toronto Raptors',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/tor.png',
-    date: 'Oct 15, 2024',
-    time: '4:30 AM ET',
-    location: 'TD Garden',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=403',
-      'https://lotusgamehd.xyz/lotushd.php?hd=404'
-    ]
-  },
-  {
-    id: 'nba_3',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Sacramento Kings',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sac.png',
-    awayTeam: 'LA Clippers',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lac.png',
-    date: 'Oct 15, 2024',
-    time: '7:00 AM ET',
-    location: 'Golden 1 Center',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=405',
-      'https://lotusgamehd.xyz/lotushd.php?hd=406'
-    ]
-  },
-  {
-    id: 'nba_4',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Los Angeles Lakers',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png',
-    awayTeam: 'Dallas Mavericks',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/dal.png',
-    date: 'Oct 15, 2024',
-    time: '7:30 AM ET',
-    location: 'Crypto.com Arena',
-    status: 'upcoming',
-    embedUrls: [
-      'https://lotusgamehd.xyz/lotushd.php?hd=407',
-      'https://lotusgamehd.xyz/lotushd.php?hd=408'
-    ]
-  } ,
+  id: 'nfl_1',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Chicago Bears',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/chi.png',
+  awayTeam: 'New Orleans Saints',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
+  date: 'Oct 19, 2025',
+  time: '10:00 PM',
+  tv: 'FOX',
+  tickets: 'Tickets as low as $165',
+  location: 'Soldier Field, Chicago, IL',
+  odds: 'Line: CHI -3.5 | O/U: 43.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=401',
+    'https://lotusgamehd.xyz/lotushd.php?hd=402'
+  ]
+},
+{
+  id: 'nfl_2',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Cleveland Browns',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/cle.png',
+  awayTeam: 'Miami Dolphins',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/mia.png',
+  date: 'Oct 19, 2025',
+  time: '10:00 PM',
+  tv: 'CBS',
+  tickets: 'Tickets as low as $8',
+  location: 'Huntington Bank Field, Cleveland, OH',
+  odds: 'Line: CLE -2.5 | O/U: 35.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=403',
+    'https://lotusgamehd.xyz/lotushd.php?hd=404'
+  ]
+},
+{
+  id: 'nfl_3',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Tennessee Titans',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ten.png',
+  awayTeam: 'New England Patriots',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ne.png',
+  date: 'Oct 19, 2025',
+  time: '10:00 PM',
+  tv: 'CBS',
+  tickets: 'Tickets as low as $12',
+  location: 'Nissan Stadium, Nashville, TN',
+  odds: 'Line: NE -6.5 | O/U: 41.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=405',
+    'https://lotusgamehd.xyz/lotushd.php?hd=406'
+  ]
+},
+{
+  id: 'nfl_4',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Kansas City Chiefs',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/kc.png',
+  awayTeam: 'Las Vegas Raiders',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lv.png',
+  date: 'Oct 19, 2025',
+  time: '10:00 PM',
+  tv: 'CBS',
+  tickets: 'Tickets as low as $142',
+  location: 'GEHA Field at Arrowhead Stadium, Kansas City, MO',
+  odds: 'Line: KC -12.5 | O/U: 44.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=407',
+    'https://lotusgamehd.xyz/lotushd.php?hd=408'
+  ]
+},
+{
+  id: 'nfl_5',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Minnesota Vikings',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/min.png',
+  awayTeam: 'Philadelphia Eagles',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/phi.png',
+  date: 'Oct 19, 2025',
+  time: '10:00 PM',
+  tv: 'FOX',
+  tickets: 'Tickets as low as $83',
+  location: 'U.S. Bank Stadium, Minneapolis, MN',
+  odds: 'Line: PHI -2.5 | O/U: 43.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=409',
+    'https://lotusgamehd.xyz/lotushd.php?hd=410'
+  ]
+},
+{
+  id: 'nfl_6',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'New York Giants',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png',
+  awayTeam: 'Carolina Panthers',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/car.png',
+  date: 'Oct 19, 2025',
+  time: '10:00 PM',
+  tv: 'FOX',
+  tickets: 'Tickets as low as $56',
+  location: 'MetLife Stadium, East Rutherford, NJ',
+  odds: 'Line: CAR -1.5 | O/U: 39.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=411',
+    'https://lotusgamehd.xyz/lotushd.php?hd=412'
+  ]
+},
+{
+  id: 'nfl_7',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Denver Broncos',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/den.png',
+  awayTeam: 'New York Jets',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png',
+  date: 'Oct 20, 2025',
+  time: '1:05 AM',
+  tv: 'CBS',
+  tickets: 'Tickets as low as $251',
+  location: 'Empower Field at Mile High, Denver, CO',
+  odds: 'Line: DEN -7.5 | O/U: 40.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=413',
+    'https://lotusgamehd.xyz/lotushd.php?hd=414'
+  ]
+},
+{
+  id: 'nfl_8',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Los Angeles Chargers',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lac.png',
+  awayTeam: 'Indianapolis Colts',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png',
+  date: 'Oct 20, 2025',
+  time: '1:05 AM',
+  tv: 'CBS',
+  tickets: 'Tickets as low as $27',
+  location: 'SoFi Stadium, Inglewood, CA',
+  odds: 'Line: LAC -2.5 | O/U: 48.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=415',
+    'https://lotusgamehd.xyz/lotushd.php?hd=416'
+  ]
+},
+{
+  id: 'nfl_9',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Dallas Cowboys',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/dal.png',
+  awayTeam: 'Washington Commanders',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png',
+  date: 'Oct 20, 2025',
+  time: '1:25 AM',
+  tv: 'FOX',
+  tickets: 'Tickets as low as $21',
+  location: 'AT&T Stadium, Arlington, TX',
+  odds: 'Line: DAL -1.5 | O/U: 54.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=417',
+    'https://lotusgamehd.xyz/lotushd.php?hd=418'
+  ]
+},
+{
+  id: 'nfl_10',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Arizona Cardinals',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ari.png',
+  awayTeam: 'Green Bay Packers',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/gb.png',
+  date: 'Oct 20, 2025',
+  time: '1:25 AM',
+  tv: 'FOX',
+  tickets: 'Tickets as low as $95',
+  location: 'State Farm Stadium, Glendale, AZ',
+  odds: 'Line: GB -6.5 | O/U: 44.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=419',
+    'https://lotusgamehd.xyz/lotushd.php?hd=420'
+  ]
+},
+{
+  id: 'nfl_11',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'San Francisco 49ers',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png',
+  awayTeam: 'Atlanta Falcons',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/atl.png',
+  date: 'Oct 20, 2025',
+  time: '5:20 AM',
+  tv: 'NBC',
+  tickets: 'Tickets as low as $93',
+  location: "Levi's Stadium, Santa Clara, CA",
+  odds: 'Line: SF -1.5 | O/U: 46.5',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=421',
+    'https://lotusgamehd.xyz/lotushd.php?hd=422'
+  ]
+}
+ ,
 
   ];
 
