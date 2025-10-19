@@ -223,8 +223,8 @@ function loadManualEvents() {
   odds: 'Line: DEN -7.5 | O/U: 40.5',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=413',
-    'https://lotusgamehd.xyz/lotushd.php?hd=414'
+    'https://topembed.pw/channel/CBS[USA]',
+    'https://topembed.pw/channel/exxpl30480'
   ]
 },
 {
@@ -243,8 +243,8 @@ function loadManualEvents() {
   odds: 'Line: LAC -2.5 | O/U: 48.5',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=415',
-    'https://lotusgamehd.xyz/lotushd.php?hd=416'
+    'https://topembed.pw/channel/CBS[USA]',
+    'https://topembed.pw/channel/CBS[USA]'
   ]
 },
 {
@@ -263,8 +263,8 @@ function loadManualEvents() {
   odds: 'Line: DAL -1.5 | O/U: 54.5',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=417',
-    'https://lotusgamehd.xyz/lotushd.php?hd=418'
+    'https://topembed.pw/channel/exxpl30484',
+    'https://topembed.pw/channel/exxpl30484'
   ]
 },
 {
@@ -283,8 +283,8 @@ function loadManualEvents() {
   odds: 'Line: GB -6.5 | O/U: 44.5',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=419',
-    'https://lotusgamehd.xyz/lotushd.php?hd=420'
+    'https://topembed.pw/channel/exxpl261695',
+    'https://topembed.pw/channel/exxpl261695'
   ]
 },
 {
@@ -303,8 +303,8 @@ function loadManualEvents() {
   odds: 'Line: SF -1.5 | O/U: 46.5',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=421',
-    'https://lotusgamehd.xyz/lotushd.php?hd=422'
+    'https://topembed.pw/channel/NBC[USA]',
+    'https://topembed.pw/channel/NBC[USA]'
   ]
 }
  ,
