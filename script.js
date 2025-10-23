@@ -87,7 +87,27 @@ function loadManualEvents() {
   console.log('📥 Loading manual events...');
 
   allEvents = [
-      {
+     {
+  id: 'nfl_1',
+  league: 'NFL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+  homeTeam: 'Los Angeles Chargers',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lac.png',
+  awayTeam: 'Minnesota Vikings',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/min.png',
+  date: 'Oct 26, 2025',
+  time: '5:15 AM ET',
+  location: 'SoFi Stadium, Inglewood, CA',
+  status: 'upcoming',
+  embedUrls: [
+    'https://lotusgamehd.xyz/lotushd.php?hd=401',
+    'https://lotusgamehd.xyz/lotushd.php?hd=402'
+  ]
+} ,
+ 
+    
+    
+    {
   id: 'nba_1',
   league: 'NBA',
   leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
