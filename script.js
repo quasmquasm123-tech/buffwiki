@@ -88,225 +88,40 @@ function loadManualEvents() {
 
   allEvents = [
       {
-  id: 'nfl_1',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Chicago Bears',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/chi.png',
-  awayTeam: 'New Orleans Saints',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
+  id: 'nba_1',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Indiana Pacers',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ind.png',
+  awayTeam: 'Oklahoma City Thunder',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/okc.png',
   date: 'Oct 19, 2025',
-  time: '10:00 PM',
-  tv: 'FOX',
-  tickets: 'Tickets as low as $165',
-  location: 'Soldier Field, Chicago, IL',
-  odds: 'Line: CHI -3.5 | O/U: 43.5',
+  time: '4:30 AM ET',
+  location: 'Gainbridge Fieldhouse, Indianapolis, IN',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=401',
-    'https://lotusgamehd.xyz/lotushd.php?hd=402'
+    'https://lotusgamehd.xyz/lotushd.php?hd=501',
+    'https://lotusgamehd.xyz/lotushd.php?hd=502'
   ]
 },
 {
-  id: 'nfl_2',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Cleveland Browns',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/cle.png',
-  awayTeam: 'Miami Dolphins',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/mia.png',
+  id: 'nba_2',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Golden State Warriors',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
+  awayTeam: 'Denver Nuggets',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/den.png',
   date: 'Oct 19, 2025',
-  time: '10:00 PM',
-  tv: 'CBS',
-  tickets: 'Tickets as low as $8',
-  location: 'Huntington Bank Field, Cleveland, OH',
-  odds: 'Line: CLE -2.5 | O/U: 35.5',
+  time: '7:00 AM ET',
+  location: 'Chase Center, San Francisco, CA',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=403',
-    'https://lotusgamehd.xyz/lotushd.php?hd=404'
+    'https://lotusgamehd.xyz/lotushd.php?hd=503',
+    'https://lotusgamehd.xyz/lotushd.php?hd=504'
   ]
 },
-{
-  id: 'nfl_3',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Tennessee Titans',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ten.png',
-  awayTeam: 'New England Patriots',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ne.png',
-  date: 'Oct 19, 2025',
-  time: '10:00 PM',
-  tv: 'CBS',
-  tickets: 'Tickets as low as $12',
-  location: 'Nissan Stadium, Nashville, TN',
-  odds: 'Line: NE -6.5 | O/U: 41.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=405',
-    'https://lotusgamehd.xyz/lotushd.php?hd=406'
-  ]
-},
-{
-  id: 'nfl_4',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Kansas City Chiefs',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/kc.png',
-  awayTeam: 'Las Vegas Raiders',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lv.png',
-  date: 'Oct 19, 2025',
-  time: '10:00 PM',
-  tv: 'CBS',
-  tickets: 'Tickets as low as $142',
-  location: 'GEHA Field at Arrowhead Stadium, Kansas City, MO',
-  odds: 'Line: KC -12.5 | O/U: 44.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=407',
-    'https://lotusgamehd.xyz/lotushd.php?hd=408'
-  ]
-},
-{
-  id: 'nfl_5',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Minnesota Vikings',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/min.png',
-  awayTeam: 'Philadelphia Eagles',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/phi.png',
-  date: 'Oct 19, 2025',
-  time: '10:00 PM',
-  tv: 'FOX',
-  tickets: 'Tickets as low as $83',
-  location: 'U.S. Bank Stadium, Minneapolis, MN',
-  odds: 'Line: PHI -2.5 | O/U: 43.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=409',
-    'https://lotusgamehd.xyz/lotushd.php?hd=410'
-  ]
-},
-{
-  id: 'nfl_6',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'New York Giants',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png',
-  awayTeam: 'Carolina Panthers',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/car.png',
-  date: 'Oct 19, 2025',
-  time: '10:00 PM',
-  tv: 'FOX',
-  tickets: 'Tickets as low as $56',
-  location: 'MetLife Stadium, East Rutherford, NJ',
-  odds: 'Line: CAR -1.5 | O/U: 39.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=411',
-    'https://lotusgamehd.xyz/lotushd.php?hd=412'
-  ]
-},
-{
-  id: 'nfl_7',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Denver Broncos',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/den.png',
-  awayTeam: 'New York Jets',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png',
-  date: 'Oct 20, 2025',
-  time: '1:05 AM',
-  tv: 'CBS',
-  tickets: 'Tickets as low as $251',
-  location: 'Empower Field at Mile High, Denver, CO',
-  odds: 'Line: DEN -7.5 | O/U: 40.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://topembed.pw/channel/CBS[USA]',
-    'https://topembed.pw/channel/exxpl30480'
-  ]
-},
-{
-  id: 'nfl_8',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Los Angeles Chargers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lac.png',
-  awayTeam: 'Indianapolis Colts',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png',
-  date: 'Oct 20, 2025',
-  time: '1:05 AM',
-  tv: 'CBS',
-  tickets: 'Tickets as low as $27',
-  location: 'SoFi Stadium, Inglewood, CA',
-  odds: 'Line: LAC -2.5 | O/U: 48.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://topembed.pw/channel/CBS[USA]',
-    'https://topembed.pw/channel/CBS[USA]'
-  ]
-},
-{
-  id: 'nfl_9',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Dallas Cowboys',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/dal.png',
-  awayTeam: 'Washington Commanders',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png',
-  date: 'Oct 20, 2025',
-  time: '1:25 AM',
-  tv: 'FOX',
-  tickets: 'Tickets as low as $21',
-  location: 'AT&T Stadium, Arlington, TX',
-  odds: 'Line: DAL -1.5 | O/U: 54.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://topembed.pw/channel/exxpl30484',
-    'https://topembed.pw/channel/exxpl30484'
-  ]
-},
-{
-  id: 'nfl_10',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Arizona Cardinals',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ari.png',
-  awayTeam: 'Green Bay Packers',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/gb.png',
-  date: 'Oct 20, 2025',
-  time: '1:25 AM',
-  tv: 'FOX',
-  tickets: 'Tickets as low as $95',
-  location: 'State Farm Stadium, Glendale, AZ',
-  odds: 'Line: GB -6.5 | O/U: 44.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://topembed.pw/channel/exxpl261695',
-    'https://topembed.pw/channel/exxpl261695'
-  ]
-},
-{
-  id: 'nfl_11',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'San Francisco 49ers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png',
-  awayTeam: 'Atlanta Falcons',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/atl.png',
-  date: 'Oct 20, 2025',
-  time: '5:20 AM',
-  tv: 'NBC',
-  tickets: 'Tickets as low as $93',
-  location: "Levi's Stadium, Santa Clara, CA",
-  odds: 'Line: SF -1.5 | O/U: 46.5',
-  status: 'upcoming',
-  embedUrls: [
-    'https://topembed.pw/channel/NBC[USA]',
-    'https://topembed.pw/channel/NBC[USA]'
-  ]
-}
+
  ,
 
   ];
