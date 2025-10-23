@@ -100,8 +100,8 @@ function loadManualEvents() {
   location: 'SoFi Stadium, Inglewood, CA',
   status: 'upcoming',
   embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=401',
-    'https://lotusgamehd.xyz/lotushd.php?hd=402'
+    'https://topembed.pw/channel/TSN1[Canada]',
+    'https://topembed.pw/channel/TSN4[Canada]'
   ]
 } ,
  
