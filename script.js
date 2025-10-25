@@ -87,267 +87,127 @@ function loadManualEvents() {
   console.log('📥 Loading manual events...');
 
   allEvents = [
-     {
-  id: 'nfl_1',
-  league: 'NFL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-  homeTeam: 'Los Angeles Chargers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lac.png',
-  awayTeam: 'Minnesota Vikings',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/min.png',
-  date: 'Oct 26, 2025',
-  time: '5:15 AM ET',
-  location: 'SoFi Stadium, Inglewood, CA',
-  status: 'upcoming',
-  embedUrls: [
-    'https://topembed.pw/channel/TSN1[Canada]',
-    'https://topembed.pw/channel/TSN4[Canada]'
-  ]
-} ,
- 
+      {
+    id: 'mma_1',
+    league: 'MMA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-mma.png&w=64&h=64&scale=crop&cquality=40&location=origin',
+    homeTeam: 'Tom Aspinall',
+    homeLogo: 'https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ASPINALL_TOM_L_BELT_10-25.png?itok=taePyxPV',
+    awayTeam: 'Ciryl Gane',
+    awayLogo: 'https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/GANE_CIRYL_R_10-25.png?itok=-K434ntZ',
+    date: 'Oct 25, 2025',
+    time: '10:00 AM ET',
+    location: 'Amway Center',
+    status: 'upcoming',
+    embedUrls: [
+      'https://topembed.pw/channel/TNTSports4[UK]',
+      'https://topembed.pw/channel/CosmoteSport8[Greece]'
+    ]
+  },  
     
     
     {
-  id: 'nba_1',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Indiana Pacers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ind.png',
-  awayTeam: 'Oklahoma City Thunder',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/okc.png',
-  date: 'Oct 19, 2025',
-  time: '4:30 AM ET',
-  location: 'Gainbridge Fieldhouse, Indianapolis, IN',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=501',
-    'https://lotusgamehd.xyz/lotushd.php?hd=502'
-  ]
-},
-{
-  id: 'nba_2',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Golden State Warriors',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
-  awayTeam: 'Denver Nuggets',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/den.png',
-  date: 'Oct 19, 2025',
-  time: '7:00 AM ET',
-  location: 'Chase Center, San Francisco, CA',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=503',
-    'https://lotusgamehd.xyz/lotushd.php?hd=504'
-  ]
-},
-
-{
-  id: 'nhl_3',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Tampa Bay Lightning',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tb.png',
-  awayTeam: 'Chicago Blackhawks',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/chi.png',
-  date: 'Oct 19, 2025',
-  time: '3:45 AM ET',
-  location: 'Amalie Arena',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=310',
-    'https://lotusgamehd.xyz/lotushd.php?hd=311'
-  ]
-},
-{
-  id: 'nhl_4',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Boston Bruins',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/bos.png',
-  awayTeam: 'Anaheim Ducks',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/ana.png',
-  date: 'Oct 19, 2025',
-  time: '4:00 AM ET',
-  location: 'TD Garden',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=312',
-    'https://lotusgamehd.xyz/lotushd.php?hd=313'
-  ]
-},
-{
-  id: 'nhl_5',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Ottawa Senators',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/ott.png',
-  awayTeam: 'Philadelphia Flyers',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/phi.png',
-  date: 'Oct 19, 2025',
-  time: '4:00 AM ET',
-  location: 'Canadian Tire Centre',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=314',
-    'https://lotusgamehd.xyz/lotushd.php?hd=315'
-  ]
-},
-{
-  id: 'nhl_6',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Florida Panthers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/fla.png',
-  awayTeam: 'Pittsburgh Penguins',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/pit.png',
-  date: 'Oct 19, 2025',
-  time: '4:00 AM ET',
-  location: 'Amerant Bank Arena',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=316',
-    'https://lotusgamehd.xyz/lotushd.php?hd=317'
-  ]
-},
-{
-  id: 'nhl_7',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'New York Islanders',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png',
-  awayTeam: 'Detroit Red Wings',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/det.png',
-  date: 'Oct 19, 2025',
-  time: '4:00 AM ET',
-  location: 'UBS Arena',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=318',
-    'https://lotusgamehd.xyz/lotushd.php?hd=319'
-  ]
-},
-{
-  id: 'nhl_8',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'New York Rangers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png',
-  awayTeam: 'San Jose Sharks',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sjs.png',
-  date: 'Oct 19, 2025',
-  time: '4:00 AM ET',
-  location: 'Madison Square Garden',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=320',
-    'https://lotusgamehd.xyz/lotushd.php?hd=321'
-  ]
-},
-{
-  id: 'nhl_9',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'St. Louis Blues',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/stl.png',
-  awayTeam: 'Utah Hockey Club',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/utah.png',
-  date: 'Oct 19, 2025',
-  time: '5:00 AM ET',
-  location: 'Enterprise Center',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=322',
-    'https://lotusgamehd.xyz/lotushd.php?hd=323'
-  ]
-},
-{
-  id: 'nhl_10',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Nashville Predators',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nsh.png',
-  awayTeam: 'Vancouver Canucks',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/van.png',
-  date: 'Oct 19, 2025',
-  time: '5:00 AM ET',
-  location: 'Bridgestone Arena',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=324',
-    'https://lotusgamehd.xyz/lotushd.php?hd=325'
-  ]
-},
-{
-  id: 'nhl_11',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Winnipeg Jets',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png',
-  awayTeam: 'Seattle Kraken',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sea.png',
-  date: 'Oct 19, 2025',
-  time: '5:00 AM ET',
-  location: 'Canada Life Centre',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=326',
-    'https://lotusgamehd.xyz/lotushd.php?hd=327'
-  ]
-},
-{
-  id: 'nhl_12',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Dallas Stars',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/dal.png',
-  awayTeam: 'Los Angeles Kings',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/la.png',
-  date: 'Oct 19, 2025',
-  time: '6:00 AM ET',
-  location: 'American Airlines Center',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=328',
-    'https://lotusgamehd.xyz/lotushd.php?hd=329'
-  ]
-},
-{
-  id: 'nhl_13',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Colorado Avalanche',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/col.png',
-  awayTeam: 'Carolina Hurricanes',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/car.png',
-  date: 'Oct 19, 2025',
-  time: '6:00 AM ET',
-  location: 'Ball Arena',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=330',
-    'https://lotusgamehd.xyz/lotushd.php?hd=331'
-  ]
-},
-{
-  id: 'nhl_14',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Edmonton Oilers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/edm.png',
-  awayTeam: 'Montreal Canadiens',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/mtl.png',
-  date: 'Oct 19, 2025',
-  time: '6:00 AM ET',
-  location: 'Rogers Place',
-  status: 'upcoming',
-  embedUrls: [
-    'https://lotusgamehd.xyz/lotushd.php?hd=332',
-    'https://lotusgamehd.xyz/lotushd.php?hd=333'
-  ]
-} ,
-
- ,
+    id: 'nba_1',
+    league: 'NBA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+    homeTeam: 'Orlando Magic',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
+    awayTeam: 'Chicago Bulls',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/chi.png',
+    date: 'Oct 25, 2025',
+    time: '4:00 AM ET',
+    location: 'Amway Center',
+    status: 'upcoming',
+    embedUrls: [
+      'https://lotusgamehd.xyz/lotushd.php?hd=401',
+      'https://lotusgamehd.xyz/lotushd.php?hd=402'
+    ]
+  },
+  {
+    id: 'nba_2',
+    league: 'NBA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+    homeTeam: 'Atlanta Hawks',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/atl.png',
+    awayTeam: 'Oklahoma City Thunder',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/okc.png',
+    date: 'Oct 25, 2025',
+    time: '4:30 AM ET',
+    location: 'State Farm Arena',
+    status: 'upcoming',
+    embedUrls: [
+      'https://lotusgamehd.xyz/lotushd.php?hd=403',
+      'https://lotusgamehd.xyz/lotushd.php?hd=404'
+    ]
+  },
+  {
+    id: 'nba_3',
+    league: 'NBA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+    homeTeam: 'Philadelphia 76ers',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phi.png',
+    awayTeam: 'Charlotte Hornets',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cha.png',
+    date: 'Oct 25, 2025',
+    time: '4:30 AM ET',
+    location: 'Wells Fargo Center',
+    status: 'upcoming',
+    embedUrls: [
+      'https://lotusgamehd.xyz/lotushd.php?hd=405',
+      'https://lotusgamehd.xyz/lotushd.php?hd=406'
+    ]
+  },
+  {
+    id: 'nba_4',
+    league: 'NBA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+    homeTeam: 'Memphis Grizzlies',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png',
+    awayTeam: 'Indiana Pacers',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ind.png',
+    date: 'Oct 25, 2025',
+    time: '5:00 AM ET',
+    location: 'FedExForum',
+    status: 'upcoming',
+    embedUrls: [
+      'https://lotusgamehd.xyz/lotushd.php?hd=407',
+      'https://lotusgamehd.xyz/lotushd.php?hd=408'
+    ]
+  },
+  {
+    id: 'nba_5',
+    league: 'NBA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+    homeTeam: 'Denver Nuggets',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/den.png',
+    awayTeam: 'Phoenix Suns',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phx.png',
+    date: 'Oct 25, 2025',
+    time: '6:00 AM ET',
+    location: 'Ball Arena',
+    status: 'upcoming',
+    embedUrls: [
+      'https://lotusgamehd.xyz/lotushd.php?hd=409',
+      'https://lotusgamehd.xyz/lotushd.php?hd=410'
+    ]
+  },
+  {
+    id: 'nba_6',
+    league: 'NBA',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+    homeTeam: 'San Antonio Spurs',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sa.png',
+    awayTeam: 'Brooklyn Nets',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bkn.png',
+    date: 'Oct 25, 2025',
+    time: '11:00 PM ET',
+    location: 'Frost Bank Center',
+    status: 'upcoming',
+    embedUrls: [
+      'https://lotusgamehd.xyz/lotushd.php?hd=411',
+      'https://lotusgamehd.xyz/lotushd.php?hd=412'
+    ]
+  },
 
   ];
 
