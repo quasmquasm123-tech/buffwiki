@@ -292,7 +292,7 @@ function createMatchRow(event) {
 
 // Open Stream Directly
 function openStream(event) {
-  const defaultEmbedUrl = event.embedUrls ? event.embedUrls[0] : 'https://lotusgamehd.xyz/lotushd.php?hd=246';
+  const defaultEmbedUrl = event.embedUrls ? event.embedUrls[0] : 'https://topembed.pw/channel/TNTSports4[UK]';
   const streamUrl = `stream.html?embed=${encodeURIComponent(defaultEmbedUrl)}&league=${encodeURIComponent(event.league)}&title=${encodeURIComponent(event.awayTeam + ' vs ' + event.homeTeam)}`;
   window.open(streamUrl, "_blank");
 }
