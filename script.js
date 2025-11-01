@@ -87,215 +87,147 @@ function loadManualEvents() {
   console.log('📥 Loading manual events...');
 
   allEvents = [
-      {
+    {
+  id: 'mlb_1',
+  league: 'MLB',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png',
+  homeTeam: 'Toronto Blue Jays',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/mlb/500/tor.png',
+  awayTeam: 'Los Angeles Dodgers',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/mlb/500/lad.png',
+  date: 'Oct 26, 2025',
+  time: '8:00 PM ET',
+  channel: 'FOX',
+  location: 'Rogers Centre, Toronto, ON',
+  status: 'upcoming',
+  pitchingMatchup: 'Max Scherzer (TOR) vs TBD (LAD)',
+  odds: { line: 'LAD -148', ou: '8.5' },
+  tickets: 'Tickets as low as $105',
+  embedUrls: [
+    'https://topembed.pw/channel/exxpl26477',
+    'https://topembed.pw/channel/ex8849541'
+  ]
+},
+[
+  {
     id: 'nba_1',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Detroit Pistons',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
-    awayTeam: 'Cleveland Cavaliers',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cle.png',
+    homeTeam: 'Milwaukee Bucks',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mil.png',
+    awayTeam: 'Sacramento Kings',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sac.png',
     date: 'Oct 26, 2025',
-    time: '4:00 AM ET',
-    channel: 'Peacock',
-    location: 'Little Caesars Arena, Detroit, MI',
+    time: '2:00 AM ET',
+    channel: '—',
+    location: 'Fiserv Forum, Milwaukee, WI',
     status: 'upcoming',
-    odds: { line: 'CLE -2.5', ou: '231.5' },
+    odds: { line: 'MIL -5.5', ou: '232.5' },
+    tickets: 'Tickets as low as $24',
     embedUrls: [
-      'https://topembed.pw/channel/exnba1',
-      'https://topembed.pw/channel/Peacock'
+      'https://topembed.pw/channel/SkySportsMainEvent[UK]'
     ]
   },
   {
     id: 'nba_2',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Philadelphia 76ers',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phi.png',
-    awayTeam: 'Orlando Magic',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
+    homeTeam: 'Charlotte Hornets',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cha.png',
+    awayTeam: 'Minnesota Timberwolves',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/min.png',
     date: 'Oct 26, 2025',
-    time: '4:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Wells Fargo Center, Philadelphia, PA',
+    time: '3:00 AM ET',
+    channel: '—',
+    location: 'Spectrum Center, Charlotte, NC',
     status: 'upcoming',
-    odds: { line: 'ORL -6.5', ou: '227.5' },
+    odds: { line: 'MIN -5.5', ou: '230.5' },
+    tickets: 'Tickets as low as $18',
     embedUrls: [
-      'https://topembed.pw/channel/exnba2',
-      'https://topembed.pw/channel/NBATV'
+      'https://topembed.pw/channel/ESPNDeportes[USA]'
     ]
   },
   {
     id: 'nba_3',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Chicago Bulls',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/chi.png',
-    awayTeam: 'Atlanta Hawks',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/atl.png',
+    homeTeam: 'Indiana Pacers',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ind.png',
+    awayTeam: 'Golden State Warriors',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
     date: 'Oct 26, 2025',
-    time: '5:00 AM ET',
+    time: '4:00 AM ET',
     channel: 'NBA TV',
-    location: 'United Center, Chicago, IL',
+    location: 'Gainbridge Fieldhouse, Indianapolis, IN',
     status: 'upcoming',
-    odds: { line: 'ATL -2.5', ou: '242.5' },
+    odds: { line: 'GS -10.5', ou: '230.5' },
+    tickets: 'Tickets as low as $32',
     embedUrls: [
-      'https://topembed.pw/channel/exnba3',
-      'https://topembed.pw/channel/NBATV'
+      'https://topembed.pw/channel/NBATV[USA]',
+      'https://topembed.pw/channel/NBATV[USA]'
     ]
   },
   {
     id: 'nba_4',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Houston Rockets',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/hou.png',
-    awayTeam: 'Brooklyn Nets',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bkn.png',
+    homeTeam: 'Washington Wizards',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/was.png',
+    awayTeam: 'Orlando Magic',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
     date: 'Oct 26, 2025',
-    time: '5:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Toyota Center, Houston, TX',
+    time: '4:00 AM ET',
+    channel: '—',
+    location: 'Capital One Arena, Washington, DC',
     status: 'upcoming',
-    odds: { line: 'HOU -15.5', ou: '224.5' },
+    odds: { line: 'ORL -9.5', ou: '234.5' },
+    tickets: 'Tickets as low as $16',
     embedUrls: [
-      'https://topembed.pw/channel/exnba4',
-      'https://topembed.pw/channel/NBATV'
+      'https://topembed.pw/channel/FanDuelSportsFlorida[USA]'
     ]
   },
   {
     id: 'nba_5',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'New Orleans Pelicans',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/no.png',
-    awayTeam: 'Boston Celtics',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
+    homeTeam: 'Boston Celtics',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
+    awayTeam: 'Houston Rockets',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/hou.png',
     date: 'Oct 26, 2025',
     time: '5:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Smoothie King Center, New Orleans, LA',
+    channel: '—',
+    location: 'TD Garden, Boston, MA',
     status: 'upcoming',
-    odds: { line: 'BOS -1.5', ou: '230.5' },
+    odds: { line: 'HOU -5.5', ou: '225.5' },
+    tickets: 'Tickets as low as $64',
     embedUrls: [
-      'https://topembed.pw/channel/exnba5',
-      'https://topembed.pw/channel/NBATV'
+      'https://topembed.pw/channel/NBCSBoston[USA]'
     ]
   },
   {
     id: 'nba_6',
     league: 'NBA',
     leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'San Antonio Spurs',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sa.png',
-    awayTeam: 'Toronto Raptors',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/tor.png',
-    date: 'Oct 26, 2025',
-    time: '5:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Frost Bank Center, San Antonio, TX',
-    status: 'upcoming',
-    odds: { line: 'SA -4.5', ou: '232.5' },
-    embedUrls: [
-      'https://topembed.pw/channel/exnba6',
-      'https://topembed.pw/channel/NBATV'
-    ]
-  },
-  {
-    id: 'nba_7',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Dallas Mavericks',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/dal.png',
-    awayTeam: 'Oklahoma City Thunder',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/okc.png',
-    date: 'Oct 26, 2025',
-    time: '5:30 AM ET',
-    channel: 'NBA TV',
-    location: 'American Airlines Center, Dallas, TX',
-    status: 'upcoming',
-    odds: { line: 'OKC -9.5', ou: '226.5' },
-    embedUrls: [
-      'https://topembed.pw/channel/exnba7',
-      'https://topembed.pw/channel/NBATV'
-    ]
-  },
-  {
-    id: 'nba_8',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Utah Jazz',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/uta.png',
-    awayTeam: 'Phoenix Suns',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phx.png',
-    date: 'Oct 26, 2025',
-    time: '6:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Delta Center, Salt Lake City, UT',
-    status: 'upcoming',
-    odds: { line: 'UTAH -1.5', ou: '231.5' },
-    embedUrls: [
-      'https://topembed.pw/channel/exnba8',
-      'https://topembed.pw/channel/NBATV'
-    ]
-  },
-  {
-    id: 'nba_9',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Minnesota Timberwolves',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/min.png',
-    awayTeam: 'Denver Nuggets',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/den.png',
-    date: 'Oct 26, 2025',
-    time: '6:30 AM ET',
-    channel: 'Peacock',
-    location: 'Target Center, Minneapolis, MN',
-    status: 'upcoming',
-    odds: { line: 'DEN -6.5', ou: '229.5' },
-    embedUrls: [
-      'https://topembed.pw/channel/exnba9',
-      'https://topembed.pw/channel/Peacock'
-    ]
-  },
-  {
-    id: 'nba_10',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Golden State Warriors',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
-    awayTeam: 'Memphis Grizzlies',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png',
+    homeTeam: 'Detroit Pistons',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
+    awayTeam: 'Dallas Mavericks',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/dal.png',
     date: 'Oct 26, 2025',
     time: '7:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Chase Center, San Francisco, CA',
+    channel: 'Peacock',
+    location: 'Little Caesars Arena, Detroit, MI',
     status: 'upcoming',
-    odds: { line: 'GS -8.5', ou: '239.5' },
+    odds: { line: '—', ou: '—' },
+    tickets: 'Tickets as low as $—',
     embedUrls: [
-      'https://topembed.pw/channel/exnba10',
-      'https://topembed.pw/channel/NBATV'
+      'https://topembed.pw/channel/ESPN1[Netherlands]',
+      'https://topembed.pw/channel/SkySportsMainEvent[UK]'
     ]
   },
-  {
-    id: 'nba_11',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Los Angeles Lakers',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png',
-    awayTeam: 'Portland Trail Blazers',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/por.png',
-    date: 'Oct 26, 2025',
-    time: '7:30 AM ET',
-    channel: 'NBA TV',
-    location: 'Crypto.com Arena, Los Angeles, CA',
-    status: 'upcoming',
-    odds: { line: 'LAL -3.5', ou: '233.5' },
-    embedUrls: [
-      'https://topembed.pw/channel/exnba11',
-      'https://topembed.pw/channel/NBATV'
-    ]
-  },
+]
+
+
 
   ];
 
