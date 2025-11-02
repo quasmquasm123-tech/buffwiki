@@ -87,7 +87,6 @@ function loadManualEvents() {
   console.log('📥 Loading manual events...');
 
   allEvents = [
-    [
   {
     id: 'nfl_1',
     league: 'NFL',
