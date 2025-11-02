@@ -87,144 +87,249 @@ function loadManualEvents() {
   console.log('📥 Loading manual events...');
 
   allEvents = [
-    {
-  id: 'mlb_1',
-  league: 'MLB',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png',
-  homeTeam: 'Toronto Blue Jays',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/mlb/500/tor.png',
-  awayTeam: 'Los Angeles Dodgers',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/mlb/500/lad.png',
-  date: 'Oct 26, 2025',
-  time: '8:00 PM ET',
-  channel: 'FOX',
-  location: 'Rogers Centre, Toronto, ON',
-  status: 'upcoming',
-  pitchingMatchup: 'Max Scherzer (TOR) vs TBD (LAD)',
-  odds: { line: 'LAD -148', ou: '8.5' },
-  tickets: 'Tickets as low as $105',
-  embedUrls: [
-    'https://topembed.pw/channel/exxpl26477',
-    'https://topembed.pw/channel/ex8849541'
-  ]
-},
-
-{
-    id: 'nba_1',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Milwaukee Bucks',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mil.png',
-    awayTeam: 'Sacramento Kings',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sac.png',
+    [
+  {
+    id: 'nfl_1',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Cincinnati Bengals',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/cin.png',
+    awayTeam: 'Chicago Bears',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/chi.png',
     date: 'Oct 26, 2025',
-    time: '2:00 AM ET',
-    channel: '—',
-    location: 'Fiserv Forum, Milwaukee, WI',
+    time: '11:00 PM ET',
+    channel: 'CBS',
+    location: 'Paycor Stadium, Cincinnati, OH',
     status: 'upcoming',
-    odds: { line: 'MIL -5.5', ou: '232.5' },
-    tickets: 'Tickets as low as $24',
+    odds: { line: 'CHI -2.5', ou: '51.5' },
+    tickets: 'Tickets as low as $98',
     embedUrls: [
-      'https://topembed.pw/channel/SkySportsMainEvent[UK]'
+      'https://topembed.pw/channel/exnfl1',
+      'https://topembed.pw/channel/CBS'
     ]
   },
   {
-    id: 'nba_2',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Charlotte Hornets',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cha.png',
-    awayTeam: 'Minnesota Timberwolves',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/min.png',
+    id: 'nfl_2',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Detroit Lions',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/det.png',
+    awayTeam: 'Minnesota Vikings',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/min.png',
     date: 'Oct 26, 2025',
-    time: '3:00 AM ET',
-    channel: '—',
-    location: 'Spectrum Center, Charlotte, NC',
+    time: '11:00 PM ET',
+    channel: 'FOX',
+    location: 'Ford Field, Detroit, MI',
     status: 'upcoming',
-    odds: { line: 'MIN -5.5', ou: '230.5' },
+    odds: { line: 'DET -8.5', ou: '48.5' },
+    tickets: 'Tickets as low as $211',
+    embedUrls: [
+      'https://topembed.pw/channel/exnfl2',
+      'https://topembed.pw/channel/FOX'
+    ]
+  },
+  {
+    id: 'nfl_3',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Green Bay Packers',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/gb.png',
+    awayTeam: 'Carolina Panthers',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/car.png',
+    date: 'Oct 26, 2025',
+    time: '11:00 PM ET',
+    channel: 'FOX',
+    location: 'Lambeau Field, Green Bay, WI',
+    status: 'upcoming',
+    odds: { line: 'GB -13.5', ou: '43.5' },
+    tickets: 'Tickets as low as $106',
+    embedUrls: [
+      'https://topembed.pw/channel/exnfl3',
+      'https://topembed.pw/channel/FOX'
+    ]
+  },
+  {
+    id: 'nfl_4',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Tennessee Titans',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ten.png',
+    awayTeam: 'Los Angeles Chargers',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lac.png',
+    date: 'Oct 26, 2025',
+    time: '11:00 PM ET',
+    channel: 'CBS',
+    location: 'Nissan Stadium, Nashville, TN',
+    status: 'upcoming',
+    odds: { line: 'LAC -9.5', ou: '43.5' },
     tickets: 'Tickets as low as $18',
     embedUrls: [
-      'https://topembed.pw/channel/ESPNDeportes[USA]'
+      'https://topembed.pw/channel/exnfl4',
+      'https://topembed.pw/channel/CBS'
     ]
   },
   {
-    id: 'nba_3',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Indiana Pacers',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/ind.png',
-    awayTeam: 'Golden State Warriors',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
+    id: 'nfl_5',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'New England Patriots',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ne.png',
+    awayTeam: 'Atlanta Falcons',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/atl.png',
     date: 'Oct 26, 2025',
-    time: '4:00 AM ET',
-    channel: 'NBA TV',
-    location: 'Gainbridge Fieldhouse, Indianapolis, IN',
+    time: '11:00 PM ET',
+    channel: 'CBS',
+    location: 'Gillette Stadium, Foxborough, MA',
     status: 'upcoming',
-    odds: { line: 'GS -10.5', ou: '230.5' },
-    tickets: 'Tickets as low as $32',
+    odds: { line: 'NE -4.5', ou: '45.5' },
+    tickets: 'Tickets as low as $132',
     embedUrls: [
-      'https://topembed.pw/channel/NBATV[USA]',
-      'https://topembed.pw/channel/NBATV[USA]'
+      'https://topembed.pw/channel/exnfl5',
+      'https://topembed.pw/channel/CBS'
     ]
   },
   {
-    id: 'nba_4',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Washington Wizards',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/was.png',
-    awayTeam: 'Orlando Magic',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
+    id: 'nfl_6',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'New York Giants',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png',
+    awayTeam: 'San Francisco 49ers',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png',
     date: 'Oct 26, 2025',
-    time: '4:00 AM ET',
-    channel: '—',
-    location: 'Capital One Arena, Washington, DC',
+    time: '11:00 PM ET',
+    channel: 'CBS',
+    location: 'MetLife Stadium, East Rutherford, NJ',
     status: 'upcoming',
-    odds: { line: 'ORL -9.5', ou: '234.5' },
-    tickets: 'Tickets as low as $16',
+    odds: { line: 'SF -2.5', ou: '47.5' },
+    tickets: 'Tickets as low as $212',
     embedUrls: [
-      'https://topembed.pw/channel/FanDuelSportsFlorida[USA]'
+      'https://topembed.pw/channel/exnfl6',
+      'https://topembed.pw/channel/CBS'
     ]
   },
   {
-    id: 'nba_5',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Boston Celtics',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
-    awayTeam: 'Houston Rockets',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/hou.png',
+    id: 'nfl_7',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Pittsburgh Steelers',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/pit.png',
+    awayTeam: 'Indianapolis Colts',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png',
     date: 'Oct 26, 2025',
-    time: '5:00 AM ET',
-    channel: '—',
-    location: 'TD Garden, Boston, MA',
+    time: '11:00 PM ET',
+    channel: 'CBS',
+    location: 'Acrisure Stadium, Pittsburgh, PA',
     status: 'upcoming',
-    odds: { line: 'HOU -5.5', ou: '225.5' },
-    tickets: 'Tickets as low as $64',
+    odds: { line: 'IND -3.5', ou: '51.5' },
+    tickets: 'Tickets as low as $89',
     embedUrls: [
-      'https://topembed.pw/channel/NBCSBoston[USA]'
+      'https://topembed.pw/channel/exnfl7',
+      'https://topembed.pw/channel/CBS'
     ]
   },
   {
-    id: 'nba_6',
-    league: 'NBA',
-    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-    homeTeam: 'Detroit Pistons',
-    homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
-    awayTeam: 'Dallas Mavericks',
-    awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/dal.png',
+    id: 'nfl_8',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Houston Texans',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/hou.png',
+    awayTeam: 'Denver Broncos',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/den.png',
     date: 'Oct 26, 2025',
-    time: '7:00 AM ET',
-    channel: 'Peacock',
-    location: 'Little Caesars Arena, Detroit, MI',
+    time: '11:00 PM ET',
+    channel: 'FOX',
+    location: 'NRG Stadium, Houston, TX',
     status: 'upcoming',
-    odds: { line: '—', ou: '—' },
-    tickets: 'Tickets as low as $—',
+    odds: { line: 'HOU -2.5', ou: '40.5' },
+    tickets: 'Tickets as low as $82',
     embedUrls: [
-      'https://topembed.pw/channel/ESPN1[Netherlands]',
-      'https://topembed.pw/channel/SkySportsMainEvent[UK]'
+      'https://topembed.pw/channel/exnfl8',
+      'https://topembed.pw/channel/FOX'
     ]
   },
+  {
+    id: 'nfl_9',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Las Vegas Raiders',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lv.png',
+    awayTeam: 'Jacksonville Jaguars',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/jax.png',
+    date: 'Oct 27, 2025',
+    time: '2:05 AM ET',
+    channel: 'FOX',
+    location: 'Allegiant Stadium, Las Vegas, NV',
+    status: 'upcoming',
+    odds: { line: 'JAX -2.5', ou: '43.5' },
+    tickets: 'Tickets as low as $70',
+    embedUrls: [
+      'https://topembed.pw/channel/exnfl9',
+      'https://topembed.pw/channel/FOX'
+    ]
+  },
+  {
+    id: 'nfl_10',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Los Angeles Rams',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lar.png',
+    awayTeam: 'New Orleans Saints',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
+    date: 'Oct 27, 2025',
+    time: '2:05 AM ET',
+    channel: 'FOX',
+    location: 'SoFi Stadium, Inglewood, CA',
+    status: 'upcoming',
+    odds: { line: 'LAR -14.5', ou: '43.5' },
+    tickets: 'Tickets as low as $43',
+    embedUrls: [
+      'https://topembed.pw/channel/exnfl10',
+      'https://topembed.pw/channel/FOX'
+    ]
+  },
+  {
+    id: 'nfl_11',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Buffalo Bills',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/buf.png',
+    awayTeam: 'Kansas City Chiefs',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/kc.png',
+    date: 'Oct 27, 2025',
+    time: '2:25 AM ET',
+    channel: 'CBS',
+    location: 'Highmark Stadium, Orchard Park, NY',
+    status: 'upcoming',
+    odds: { line: 'KC -1.5', ou: '52.5' },
+    tickets: 'Tickets as low as $254',
+    embedUrls: [
+      'https://topembed.pw/channel/exnfl11',
+      'https://topembed.pw/channel/CBS'
+    ]
+  },
+  {
+    id: 'nfl_12',
+    league: 'NFL',
+    leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
+    homeTeam: 'Washington Commanders',
+    homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png',
+    awayTeam: 'Seattle Seahawks',
+    awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/sea.png',
+    date: 'Oct 27, 2025',
+    time: '6:20 AM ET',
+    channel: 'NBC',
+    location: 'Northwest Stadium, Landover, MD',
+    status: 'upcoming',
+    odds: { line: 'SEA -2.5', ou: '—' },
+    tickets: 'Tickets as low as $61',
+    embedUrls: [
+      'https://topembed.pw/channel/exnfl12',
+      'https://topembed.pw/channel/NBC'
+    ]
+  },
+
+
 
 
 
