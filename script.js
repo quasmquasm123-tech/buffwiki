@@ -268,6 +268,256 @@ function loadManualEvents() {
   ]
 }
 
+{
+  id: 'nhl_1',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Toronto Maple Leafs',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tor.png',
+  awayTeam: 'St. Louis Blues',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/stl.png',
+  date: 'Today',
+  time: '5:00 AM',
+  location: 'Toronto, Canada',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $66',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'TOR -125',
+    overUnder: '5.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL1',
+    'https://topembed.pw/channel/NHL1',
+    'https://topembed.pw/channel/NHL1',
+    'https://topembed.pw/channel/NHL1'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_2',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Detroit Red Wings',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/det.png',
+  awayTeam: 'Seattle Kraken',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sea.png',
+  date: 'Today',
+  time: '5:00 AM',
+  location: 'Detroit, MI',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $13',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'DET -170',
+    overUnder: '5.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL2',
+    'https://topembed.pw/channel/NHL2',
+    'https://topembed.pw/channel/NHL2',
+    'https://topembed.pw/channel/NHL2'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_3',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Tampa Bay Lightning',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tb.png',
+  awayTeam: 'New Jersey Devils',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nj.png',
+  date: 'Today',
+  time: '5:00 AM',
+  location: 'Tampa Bay, FL',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $19',
+  tv: ['NHL Net'],
+  odds: {
+    line: 'TB -165',
+    overUnder: '5.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL3',
+    'https://topembed.pw/channel/NHL3',
+    'https://topembed.pw/channel/NHL3',
+    'https://topembed.pw/channel/NHL3'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_4',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Dallas Stars',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/dal.png',
+  awayTeam: 'New York Rangers',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png',
+  date: 'Today',
+  time: '6:00 AM',
+  location: 'Dallas, TX',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $22',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'DAL -165',
+    overUnder: '6.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL4',
+    'https://topembed.pw/channel/NHL4',
+    'https://topembed.pw/channel/NHL4',
+    'https://topembed.pw/channel/NHL4'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_5',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Winnipeg Jets',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png',
+  awayTeam: 'Columbus Blue Jackets',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cls.png',
+  date: 'Today',
+  time: '6:00 AM',
+  location: 'Winnipeg, Canada',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $26',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'WPG -195',
+    overUnder: '6.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL5',
+    'https://topembed.pw/channel/NHL5',
+    'https://topembed.pw/channel/NHL5',
+    'https://topembed.pw/channel/NHL5'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_6',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Chicago Blackhawks',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/chi.png',
+  awayTeam: 'Calgary Flames',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png',
+  date: 'Today',
+  time: '6:30 AM',
+  location: 'Chicago, IL',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $30',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'CHI -110',
+    overUnder: '5.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL6',
+    'https://topembed.pw/channel/NHL6',
+    'https://topembed.pw/channel/NHL6',
+    'https://topembed.pw/channel/NHL6'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_7',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'Vegas Golden Knights',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png',
+  awayTeam: 'New York Islanders',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png',
+  date: 'Today',
+  time: '8:00 AM',
+  location: 'Las Vegas, NV',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $33',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'VGK -140',
+    overUnder: '6.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL7',
+    'https://topembed.pw/channel/NHL7',
+    'https://topembed.pw/channel/NHL7',
+    'https://topembed.pw/channel/NHL7'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nhl_8',
+  league: 'NHL',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+  homeTeam: 'San Jose Sharks',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sj.png',
+  awayTeam: 'Utah Hockey Club',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/uta.png',
+  date: 'Today',
+  time: '8:00 AM',
+  location: 'San Jose, CA',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $19',
+  tv: ['ESPN+'],
+  odds: {
+    line: 'UTA -140',
+    overUnder: '6.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NHL8',
+    'https://topembed.pw/channel/NHL8',
+    'https://topembed.pw/channel/NHL8',
+    'https://topembed.pw/channel/NHL8'
+  ],
+  channelNames: [
+    'NHL Channel 1 (HD)',
+    'NHL Channel 2 (Backup)',
+    'NHL Channel 3 (Mobile)',
+    'NHL Channel 4 (Premium)'
+  ]
+}
+
+
   ];
 
   console.log(`✅ Loaded ${allEvents.length} events with individual channels`);
