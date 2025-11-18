@@ -102,7 +102,7 @@ function loadManualEvents() {
       odds: 'GS -3.5 | O/U 223.5',
       tickets: 'Tickets as low as $82',
       embedUrls: [
-        'https://topembed.pw/channel/BallySportsFlorida[USA]',
+        'https://topembed.pw/channel/SportsnetOne[Canada]',
         'https://topembed.pw/channel/BallySportsFlorida[USA]',
         'https://topembed.pw/channel/BallySportsFlorida[USA]'
       ],
