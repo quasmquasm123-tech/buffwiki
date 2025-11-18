@@ -88,285 +88,186 @@ function loadManualEvents() {
 
   allEvents = [
     {
-      id: 'nfl_1',
-      league: 'NFL',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-      homeTeam: 'Chicago Bears',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/chi.png',
-      awayTeam: 'New Orleans Saints',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/no.png',
-      date: 'Oct 19, 2025',
-      time: '10:00 PM ET',
-      location: 'Soldier Field, Chicago, IL',
-      status: 'upcoming',
-      embedUrls: [
-        'https://topembed.pw/channel/TSN1[Canada]',
-        'https://topembed.pw/channel/TSN1[Canada]',
-        'https://topembed.pw/channel/TSN1[Canada]',
-        'https://topembed.pw/channel/TSN1[Canada]'
-      ],
-      channelNames: [
-        'NFL Channel 1 (HD)',
-        'NFL Channel 2 (Backup)',
-        'NFL Channel 3 (Mobile)',
-        'NFL Channel 4 (Premium)'
-      ]
-    },
-    {
-      id: 'nfl_2',
-      league: 'NFL',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-      homeTeam: 'Cleveland Browns',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/cle.png',
-      awayTeam: 'Miami Dolphins',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/mia.png',
-      date: 'Oct 19, 2025',
-      time: '10:00 PM ET',
-      location: 'Huntington Bank Field, Cleveland, OH',
-      status: 'upcoming',
-      embedUrls: [
-        'https://topembed.pw/channel/FOXSports1[USA]',
-        'https://topembed.pw/channel/FOXSports1[USA]',
-        'https://lotusgamehd.xyz/lotushd.php?hd=407',
-        'https://lotusgamehd.xyz/lotushd.php?hd=408'
-      ],
-      channelNames: [
-        'NFL Dolphins vs Browns 1',
-        'NFL Dolphins vs Browns 2',
-        'NFL Dolphins vs Browns 3',
-        'NFL Dolphins vs Browns 4'
-      ]
-    },
-    {
-      id: 'nfl_3',
-      league: 'NFL',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-      homeTeam: 'Tennessee Titans',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ten.png',
-      awayTeam: 'New England Patriots',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ne.png',
-      date: 'Oct 19, 2025',
-      time: '10:00 PM ET',
-      location: 'Nissan Stadium, Nashville, TN',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=409',
-        'https://lotusgamehd.xyz/lotushd.php?hd=410',
-        'https://lotusgamehd.xyz/lotushd.php?hd=411'
-      ],
-      channelNames: [
-        'NFL Titans vs Patriots 1',
-        'NFL Titans vs Patriots 2',
-        'NFL Titans vs Patriots 3'
-      ]
-    },
-    {
-      id: 'nfl_4',
-      league: 'NFL',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png',
-      homeTeam: 'Kansas City Chiefs',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/kc.png',
-      awayTeam: 'Las Vegas Raiders',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nfl/500/lv.png',
-      date: 'Oct 19, 2025',
-      time: '10:00 PM ET',
-      location: 'GEHA Field at Arrowhead Stadium, Kansas City, MO',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=412',
-        'https://lotusgamehd.xyz/lotushd.php?hd=413',
-        'https://lotusgamehd.xyz/lotushd.php?hd=414'
-      ],
-      channelNames: [
-        'NFL Chiefs vs Raiders 1',
-        'NFL Chiefs vs Raiders 2',
-        'NFL Chiefs vs Raiders 3'
-      ]
-    },
-    {
-      id: 'nba_1',
-      league: 'NBA',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-      homeTeam: 'Cleveland Cavaliers',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/cle.png',
-      awayTeam: 'Detroit Pistons',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
-      date: 'Oct 14, 2025',
-      time: '4:00 AM ET',
-      location: 'Rocket Mortgage FieldHouse',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=501',
-        'https://lotusgamehd.xyz/lotushd.php?hd=502',
-        'https://lotusgamehd.xyz/lotushd.php?hd=503'
-      ],
-      channelNames: [
-        'NBA Cavaliers vs Pistons 1',
-        'NBA Cavaliers vs Pistons 2',
-        'NBA Cavaliers vs Pistons 3'
-      ]
-    },
-    {
-      id: 'nba_2',
-      league: 'NBA',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-      homeTeam: 'New Orleans Pelicans',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/no.png',
-      awayTeam: 'Houston Rockets',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/hou.png',
-      date: 'Oct 14, 2025',
-      time: '5:00 AM ET',
-      location: 'Smoothie King Center',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=504',
-        'https://lotusgamehd.xyz/lotushd.php?hd=505',
-        'https://lotusgamehd.xyz/lotushd.php?hd=506'
-      ],
-      channelNames: [
-        'NBA Pelicans vs Rockets 1',
-        'NBA Pelicans vs Rockets 2',
-        'NBA Pelicans vs Rockets 3'
-      ]
-    },
-    {
-      id: 'nba_3',
-      league: 'NBA',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-      homeTeam: 'Milwaukee Bucks',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mil.png',
-      awayTeam: 'Oklahoma City Thunder',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/okc.png',
-      date: 'Oct 14, 2025',
-      time: '5:00 AM ET',
-      location: 'Fiserv Forum',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=507',
-        'https://lotusgamehd.xyz/lotushd.php?hd=508',
-        'https://lotusgamehd.xyz/lotushd.php?hd=509'
-      ],
-      channelNames: [
-        'NBA Bucks vs Thunder 1',
-        'NBA Bucks vs Thunder 2',
-        'NBA Bucks vs Thunder 3'
-      ]
-    },
-    {
-      id: 'mlb_1',
-      league: 'MLB',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/mlb.png',
-      homeTeam: 'Milwaukee Brewers',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/mlb/500/mil.png',
-      awayTeam: 'Los Angeles Dodgers',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/mlb/500/lad.png',
-      date: 'Oct 14, 2025',
-      time: '5:08 AM ET',
-      location: 'American Family Field',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=601',
-        'https://lotusgamehd.xyz/lotushd.php?hd=602',
-        'https://lotusgamehd.xyz/lotushd.php?hd=603'
-      ],
-      channelNames: [
-        'MLB Brewers vs Dodgers 1',
-        'MLB Brewers vs Dodgers 2',
-        'MLB Brewers vs Dodgers 3'
-      ]
-    },
-    {
-      id: 'nhl_1',
-      league: 'NHL',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-      homeTeam: 'Montreal Canadiens',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/mtl.png',
-      awayTeam: 'Seattle Kraken',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sea.png',
-      date: 'Oct 14, 2025',
-      time: '7:00 PM ET',
-      location: 'Bell Centre',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=701',
-        'https://lotusgamehd.xyz/lotushd.php?hd=702',
-        'https://lotusgamehd.xyz/lotushd.php?hd=703'
-      ],
-      channelNames: [
-        'NHL Canadiens vs Kraken 1',
-        'NHL Canadiens vs Kraken 2',
-        'NHL Canadiens vs Kraken 3'
-      ]
-    },
-    {
-      id: 'nhl_2',
-      league: 'NHL',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-      homeTeam: 'New York Islanders',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png',
-      awayTeam: 'Edmonton Oilers',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/edm.png',
-      date: 'Oct 14, 2025',
-      time: '7:00 PM ET',
-      location: 'UBS Arena',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=704',
-        'https://lotusgamehd.xyz/lotushd.php?hd=705',
-        'https://lotusgamehd.xyz/lotushd.php?hd=706'
-      ],
-      channelNames: [
-        'NHL Islanders vs Oilers 1',
-        'NHL Islanders vs Oilers 2',
-        'NHL Islanders vs Oilers 3'
-      ]
-    },
-    {
-      id: 'soccer_1',
-      league: 'Soccer',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-soccer.png&h=80&w=80&scale=crop&cquality=40',
-      homeTeam: 'Manchester United',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/soccer/500/manchester_united.png',
-      awayTeam: 'Liverpool',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/soccer/500/liverpool.png',
-      date: 'Oct 15, 2025',
-      time: '3:00 PM ET',
-      location: 'Old Trafford',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=801',
-        'https://lotusgamehd.xyz/lotushd.php?hd=802',
-        'https://lotusgamehd.xyz/lotushd.php?hd=803'
-      ],
-      channelNames: [
-        'Soccer Man Utd vs Liverpool 1',
-        'Soccer Man Utd vs Liverpool 2',
-        'Soccer Man Utd vs Liverpool 3'
-      ]
-    },
-    {
-      id: 'mma_1',
-      league: 'MMA',
-      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/redesign/assets/img/icons/ESPN-icon-mma.png&w=64&h=64&scale=crop&cquality=40&location=origin',
-      homeTeam: 'Conor McGregor',
-      homeLogo: 'https://a.espncdn.com/i/teamlogos/mma/500/conor_mcgregor.png',
-      awayTeam: 'Khabib Nurmagomedov',
-      awayLogo: 'https://a.espncdn.com/i/teamlogos/mma/500/khabib_nurmagomedov.png',
-      date: 'Oct 16, 2025',
-      time: '10:00 PM ET',
-      location: 'T-Mobile Arena, Las Vegas',
-      status: 'upcoming',
-      embedUrls: [
-        'https://lotusgamehd.xyz/lotushd.php?hd=901',
-        'https://lotusgamehd.xyz/lotushd.php?hd=902',
-        'https://lotusgamehd.xyz/lotushd.php?hd=903'
-      ],
-      channelNames: [
-        'MMA McGregor vs Khabib 1',
-        'MMA McGregor vs Khabib 2',
-        'MMA McGregor vs Khabib 3'
-      ]
-    }
+  id: 'nba_1',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Orlando Magic',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
+  awayTeam: 'Golden State Warriors',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
+  date: 'Today',
+  time: '5:00 AM',
+  location: 'Orlando, FL',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $82',
+  odds: {
+    line: 'GS -3.5',
+    overUnder: '223.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NBA1',
+    'https://topembed.pw/channel/NBA1',
+    'https://topembed.pw/channel/NBA1',
+    'https://topembed.pw/channel/NBA1'
+  ],
+  channelNames: [
+    'NBA Channel 1 (HD)',
+    'NBA Channel 2 (Backup)',
+    'NBA Channel 3 (Mobile)',
+    'NBA Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nba_2',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Brooklyn Nets',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bkn.png',
+  awayTeam: 'Boston Celtics',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
+  date: 'Today',
+  time: '5:30 AM',
+  location: 'Brooklyn, NY',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $40',
+  odds: {
+    line: 'BOS -10.5',
+    overUnder: '223.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NBA2',
+    'https://topembed.pw/channel/NBA2',
+    'https://topembed.pw/channel/NBA2',
+    'https://topembed.pw/channel/NBA2'
+  ],
+  channelNames: [
+    'NBA Channel 1 (HD)',
+    'NBA Channel 2 (Backup)',
+    'NBA Channel 3 (Mobile)',
+    'NBA Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nba_3',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Atlanta Hawks',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/atl.png',
+  awayTeam: 'Detroit Pistons',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
+  date: 'Today',
+  time: '5:30 AM',
+  location: 'Atlanta, GA',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $41',
+  odds: {
+    line: 'ATL -1.5',
+    overUnder: '229.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NBA3',
+    'https://topembed.pw/channel/NBA3',
+    'https://topembed.pw/channel/NBA3',
+    'https://topembed.pw/channel/NBA3'
+  ],
+  channelNames: [
+    'NBA Channel 1 (HD)',
+    'NBA Channel 2 (Backup)',
+    'NBA Channel 3 (Mobile)',
+    'NBA Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nba_4',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'San Antonio Spurs',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sa.png',
+  awayTeam: 'Memphis Grizzlies',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png',
+  date: 'Today',
+  time: '6:00 AM',
+  location: 'San Antonio, TX',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $15',
+  odds: {
+    line: 'SA -5.5',
+    overUnder: '231.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NBA4',
+    'https://topembed.pw/channel/NBA4',
+    'https://topembed.pw/channel/NBA4',
+    'https://topembed.pw/channel/NBA4'
+  ],
+  channelNames: [
+    'NBA Channel 1 (HD)',
+    'NBA Channel 2 (Backup)',
+    'NBA Channel 3 (Mobile)',
+    'NBA Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nba_5',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Los Angeles Lakers',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png',
+  awayTeam: 'Utah Jazz',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/utah.png',
+  date: 'Today',
+  time: '8:30 AM',
+  location: 'Los Angeles, CA',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $61',
+  odds: {
+    line: 'LAL -12.5',
+    overUnder: '238.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NBA5',
+    'https://topembed.pw/channel/NBA5',
+    'https://topembed.pw/channel/NBA5',
+    'https://topembed.pw/channel/NBA5'
+  ],
+  channelNames: [
+    'NBA Channel 1 (HD)',
+    'NBA Channel 2 (Backup)',
+    'NBA Channel 3 (Mobile)',
+    'NBA Channel 4 (Premium)'
+  ]
+},
+{
+  id: 'nba_6',
+  league: 'NBA',
+  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+  homeTeam: 'Portland Trail Blazers',
+  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/por.png',
+  awayTeam: 'Phoenix Suns',
+  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phx.png',
+  date: 'Today',
+  time: '9:00 AM',
+  location: 'Portland, OR',
+  status: 'upcoming',
+  tickets: 'Tickets as low as $13',
+  odds: {
+    line: 'POR -2.5',
+    overUnder: '236.5'
+  },
+  embedUrls: [
+    'https://topembed.pw/channel/NBA6',
+    'https://topembed.pw/channel/NBA6',
+    'https://topembed.pw/channel/NBA6',
+    'https://topembed.pw/channel/NBA6'
+  ],
+  channelNames: [
+    'NBA Channel 1 (HD)',
+    'NBA Channel 2 (Backup)',
+    'NBA Channel 3 (Mobile)',
+    'NBA Channel 4 (Premium)'
+  ]
+}
+
   ];
 
   console.log(`✅ Loaded ${allEvents.length} events with individual channels`);
