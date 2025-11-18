@@ -88,436 +88,157 @@ function loadManualEvents() {
 
   allEvents = [
     {
-  id: 'nba_1',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Orlando Magic',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
-  awayTeam: 'Golden State Warriors',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
-  date: 'Today',
-  time: '5:00 AM',
-  location: 'Orlando, FL',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $82',
-  odds: {
-    line: 'GS -3.5',
-    overUnder: '223.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NBA1',
-    'https://topembed.pw/channel/NBA1',
-    'https://topembed.pw/channel/NBA1',
-    'https://topembed.pw/channel/NBA1'
-  ],
-  channelNames: [
-    'NBA Channel 1 (HD)',
-    'NBA Channel 2 (Backup)',
-    'NBA Channel 3 (Mobile)',
-    'NBA Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nba_2',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Brooklyn Nets',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bkn.png',
-  awayTeam: 'Boston Celtics',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
-  date: 'Today',
-  time: '5:30 AM',
-  location: 'Brooklyn, NY',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $40',
-  odds: {
-    line: 'BOS -10.5',
-    overUnder: '223.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NBA2',
-    'https://topembed.pw/channel/NBA2',
-    'https://topembed.pw/channel/NBA2',
-    'https://topembed.pw/channel/NBA2'
-  ],
-  channelNames: [
-    'NBA Channel 1 (HD)',
-    'NBA Channel 2 (Backup)',
-    'NBA Channel 3 (Mobile)',
-    'NBA Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nba_3',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Atlanta Hawks',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/atl.png',
-  awayTeam: 'Detroit Pistons',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
-  date: 'Today',
-  time: '5:30 AM',
-  location: 'Atlanta, GA',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $41',
-  odds: {
-    line: 'ATL -1.5',
-    overUnder: '229.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NBA3',
-    'https://topembed.pw/channel/NBA3',
-    'https://topembed.pw/channel/NBA3',
-    'https://topembed.pw/channel/NBA3'
-  ],
-  channelNames: [
-    'NBA Channel 1 (HD)',
-    'NBA Channel 2 (Backup)',
-    'NBA Channel 3 (Mobile)',
-    'NBA Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nba_4',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'San Antonio Spurs',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sa.png',
-  awayTeam: 'Memphis Grizzlies',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png',
-  date: 'Today',
-  time: '6:00 AM',
-  location: 'San Antonio, TX',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $15',
-  odds: {
-    line: 'SA -5.5',
-    overUnder: '231.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NBA4',
-    'https://topembed.pw/channel/NBA4',
-    'https://topembed.pw/channel/NBA4',
-    'https://topembed.pw/channel/NBA4'
-  ],
-  channelNames: [
-    'NBA Channel 1 (HD)',
-    'NBA Channel 2 (Backup)',
-    'NBA Channel 3 (Mobile)',
-    'NBA Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nba_5',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Los Angeles Lakers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png',
-  awayTeam: 'Utah Jazz',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/utah.png',
-  date: 'Today',
-  time: '8:30 AM',
-  location: 'Los Angeles, CA',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $61',
-  odds: {
-    line: 'LAL -12.5',
-    overUnder: '238.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NBA5',
-    'https://topembed.pw/channel/NBA5',
-    'https://topembed.pw/channel/NBA5',
-    'https://topembed.pw/channel/NBA5'
-  ],
-  channelNames: [
-    'NBA Channel 1 (HD)',
-    'NBA Channel 2 (Backup)',
-    'NBA Channel 3 (Mobile)',
-    'NBA Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nba_6',
-  league: 'NBA',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
-  homeTeam: 'Portland Trail Blazers',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/por.png',
-  awayTeam: 'Phoenix Suns',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phx.png',
-  date: 'Today',
-  time: '9:00 AM',
-  location: 'Portland, OR',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $13',
-  odds: {
-    line: 'POR -2.5',
-    overUnder: '236.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NBA6',
-    'https://topembed.pw/channel/NBA6',
-    'https://topembed.pw/channel/NBA6',
-    'https://topembed.pw/channel/NBA6'
-  ],
-  channelNames: [
-    'NBA Channel 1 (HD)',
-    'NBA Channel 2 (Backup)',
-    'NBA Channel 3 (Mobile)',
-    'NBA Channel 4 (Premium)'
-  ]
-}
-
-{
-  id: 'nhl_1',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Toronto Maple Leafs',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tor.png',
-  awayTeam: 'St. Louis Blues',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/stl.png',
-  date: 'Today',
-  time: '5:00 AM',
-  location: 'Toronto, Canada',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $66',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'TOR -125',
-    overUnder: '5.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL1',
-    'https://topembed.pw/channel/NHL1',
-    'https://topembed.pw/channel/NHL1',
-    'https://topembed.pw/channel/NHL1'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_2',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Detroit Red Wings',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/det.png',
-  awayTeam: 'Seattle Kraken',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sea.png',
-  date: 'Today',
-  time: '5:00 AM',
-  location: 'Detroit, MI',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $13',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'DET -170',
-    overUnder: '5.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL2',
-    'https://topembed.pw/channel/NHL2',
-    'https://topembed.pw/channel/NHL2',
-    'https://topembed.pw/channel/NHL2'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_3',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Tampa Bay Lightning',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tb.png',
-  awayTeam: 'New Jersey Devils',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nj.png',
-  date: 'Today',
-  time: '5:00 AM',
-  location: 'Tampa Bay, FL',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $19',
-  tv: ['NHL Net'],
-  odds: {
-    line: 'TB -165',
-    overUnder: '5.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL3',
-    'https://topembed.pw/channel/NHL3',
-    'https://topembed.pw/channel/NHL3',
-    'https://topembed.pw/channel/NHL3'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_4',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Dallas Stars',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/dal.png',
-  awayTeam: 'New York Rangers',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png',
-  date: 'Today',
-  time: '6:00 AM',
-  location: 'Dallas, TX',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $22',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'DAL -165',
-    overUnder: '6.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL4',
-    'https://topembed.pw/channel/NHL4',
-    'https://topembed.pw/channel/NHL4',
-    'https://topembed.pw/channel/NHL4'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_5',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Winnipeg Jets',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png',
-  awayTeam: 'Columbus Blue Jackets',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cls.png',
-  date: 'Today',
-  time: '6:00 AM',
-  location: 'Winnipeg, Canada',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $26',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'WPG -195',
-    overUnder: '6.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL5',
-    'https://topembed.pw/channel/NHL5',
-    'https://topembed.pw/channel/NHL5',
-    'https://topembed.pw/channel/NHL5'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_6',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Chicago Blackhawks',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/chi.png',
-  awayTeam: 'Calgary Flames',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png',
-  date: 'Today',
-  time: '6:30 AM',
-  location: 'Chicago, IL',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $30',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'CHI -110',
-    overUnder: '5.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL6',
-    'https://topembed.pw/channel/NHL6',
-    'https://topembed.pw/channel/NHL6',
-    'https://topembed.pw/channel/NHL6'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_7',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Vegas Golden Knights',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png',
-  awayTeam: 'New York Islanders',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png',
-  date: 'Today',
-  time: '8:00 AM',
-  location: 'Las Vegas, NV',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $33',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'VGK -140',
-    overUnder: '6.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL7',
-    'https://topembed.pw/channel/NHL7',
-    'https://topembed.pw/channel/NHL7',
-    'https://topembed.pw/channel/NHL7'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-},
-{
-  id: 'nhl_8',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'San Jose Sharks',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sj.png',
-  awayTeam: 'Utah Hockey Club',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/uta.png',
-  date: 'Today',
-  time: '8:00 AM',
-  location: 'San Jose, CA',
-  status: 'upcoming',
-  tickets: 'Tickets as low as $19',
-  tv: ['ESPN+'],
-  odds: {
-    line: 'UTA -140',
-    overUnder: '6.5'
-  },
-  embedUrls: [
-    'https://topembed.pw/channel/NHL8',
-    'https://topembed.pw/channel/NHL8',
-    'https://topembed.pw/channel/NHL8',
-    'https://topembed.pw/channel/NHL8'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)',
-    'NHL Channel 4 (Premium)'
-  ]
-}
-
-
+      id: 'nba_1',
+      league: 'NBA',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+      homeTeam: 'Orlando Magic',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/orl.png',
+      awayTeam: 'Golden State Warriors',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/gs.png',
+      date: 'Nov 18, 2025',
+      time: '5:00 AM ET',
+      location: 'Amway Center, Orlando, FL',
+      status: 'upcoming',
+      odds: 'GS -3.5 | O/U 223.5',
+      tickets: 'Tickets as low as $82',
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN[USA]',
+        'https://topembed.pw/channel/ESPN[USA]',
+        'https://topembed.pw/channel/ESPN[USA]'
+      ],
+      channelNames: [
+        'NBA Channel 1 (HD)',
+        'NBA Channel 2 (Backup)',
+        'NBA Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nba_2',
+      league: 'NBA',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+      homeTeam: 'Brooklyn Nets',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bkn.png',
+      awayTeam: 'Boston Celtics',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/bos.png',
+      date: 'Nov 18, 2025',
+      time: '5:30 AM ET',
+      location: 'Barclays Center, Brooklyn, NY',
+      status: 'upcoming',
+      odds: 'BOS -10.5 | O/U 223.5',
+      tickets: 'Tickets as low as $40',
+      embedUrls: [
+        'https://topembed.pw/channel/TNT[USA]',
+        'https://topembed.pw/channel/TNT[USA]',
+        'https://topembed.pw/channel/TNT[USA]'
+      ],
+      channelNames: [
+        'NBA Channel 1 (HD)',
+        'NBA Channel 2 (Backup)',
+        'NBA Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nba_3',
+      league: 'NBA',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+      homeTeam: 'Atlanta Hawks',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/atl.png',
+      awayTeam: 'Detroit Pistons',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/det.png',
+      date: 'Nov 18, 2025',
+      time: '5:30 AM ET',
+      location: 'State Farm Arena, Atlanta, GA',
+      status: 'upcoming',
+      odds: 'ATL -1.5 | O/U 230.5',
+      tickets: 'Tickets as low as $41',
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN2[USA]',
+        'https://topembed.pw/channel/ESPN2[USA]',
+        'https://topembed.pw/channel/ESPN2[USA]'
+      ],
+      channelNames: [
+        'NBA Channel 1 (HD)',
+        'NBA Channel 2 (Backup)',
+        'NBA Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nba_4',
+      league: 'NBA',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+      homeTeam: 'San Antonio Spurs',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/sa.png',
+      awayTeam: 'Memphis Grizzlies',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/mem.png',
+      date: 'Nov 18, 2025',
+      time: '6:00 AM ET',
+      location: 'Frost Bank Center, San Antonio, TX',
+      status: 'upcoming',
+      odds: 'SA -6.5 | O/U 232.5',
+      tickets: 'Tickets as low as $15',
+      tv: ['NBC', 'Peacock'],
+      embedUrls: [
+        'https://topembed.pw/channel/NBC[USA]',
+        'https://topembed.pw/channel/NBC[USA]',
+        'https://topembed.pw/channel/NBC[USA]'
+      ],
+      channelNames: [
+        'NBA Channel 1 (HD)',
+        'NBA Channel 2 (Backup)',
+        'NBA Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nba_5',
+      league: 'NBA',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+      homeTeam: 'Los Angeles Lakers',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/lal.png',
+      awayTeam: 'Utah Jazz',
+      awayLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/utah.png&w=40&h=40&scale=crop&cquality=40&location=origin',
+      date: 'Nov 18, 2025',
+      time: '8:30 AM ET',
+      location: 'Crypto.com Arena, Los Angeles, CA',
+      status: 'upcoming',
+      odds: 'LAL -12.5 | O/U 238.5',
+      tickets: 'Tickets as low as $61',
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN[USA]',
+        'https://topembed.pw/channel/ESPN[USA]',
+        'https://topembed.pw/channel/ESPN[USA]'
+      ],
+      channelNames: [
+        'NBA Channel 1 (HD)',
+        'NBA Channel 2 (Backup)',
+        'NBA Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nba_6',
+      league: 'NBA',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nba.png',
+      homeTeam: 'Portland Trail Blazers',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/por.png',
+      awayTeam: 'Phoenix Suns',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nba/500/phx.png',
+      date: 'Nov 18, 2025',
+      time: '9:00 AM ET',
+      location: 'Moda Center, Portland, OR',
+      status: 'upcoming',
+      odds: 'POR -2.5 | O/U 236.5',
+      tickets: 'Tickets as low as $13',
+      tv: ['NBC', 'Peacock'],
+      embedUrls: [
+        'https://topembed.pw/channel/NBC[USA]',
+        'https://topembed.pw/channel/NBC[USA]',
+        'https://topembed.pw/channel/NBC[USA]'
+      ],
+      channelNames: [
+        'NBA Channel 1 (HD)',
+        'NBA Channel 2 (Backup)',
+        'NBA Channel 3 (Mobile)'
+      ]
+    }
   ];
 
   console.log(`✅ Loaded ${allEvents.length} events with individual channels`);
