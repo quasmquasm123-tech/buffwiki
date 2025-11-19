@@ -103,8 +103,8 @@ function loadManualEvents() {
       tickets: 'Tickets as low as $82',
       embedUrls: [
         'https://topembed.pw/channel/SportsnetOne[Canada]',
-        'https://topembed.pw/channel/BallySportsFlorida[USA]',
-        'https://topembed.pw/channel/BallySportsFlorida[USA]'
+        'https://topembed.pw/channel/ESPN[USA]',
+        'https://topembed.pw/channel/ESPN[USA]'
       ],
       channelNames: [
         'NBA Channel 1 (HD)',
@@ -239,215 +239,215 @@ function loadManualEvents() {
         'NBA Channel 3 (Mobile)'
       ]
     },
-
     {
-  id: 'nhl_1',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Toronto Maple Leafs',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tor.png',
-  awayTeam: 'St. Louis Blues',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/stl.png',
-  date: 'Nov 18, 2025',
-  time: '5:00 AM ET',
-  location: 'Scotiabank Arena, Toronto, ON',
-  status: 'upcoming',
-  odds: 'TOR -125 | O/U 5.5',
-  tickets: 'Tickets as low as $65',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_2',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Detroit Red Wings',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/det.png',
-  awayTeam: 'Seattle Kraken',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sea.png',
-  date: 'Nov 18, 2025',
-  time: '5:00 AM ET',
-  location: 'Little Caesars Arena, Detroit, MI',
-  status: 'upcoming',
-  odds: 'DET -170 | O/U 5.5',
-  tickets: 'Tickets as low as $13',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_3',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Tampa Bay Lightning',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tb.png',
-  awayTeam: 'New Jersey Devils',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nj.png',
-  date: 'Nov 18, 2025',
-  time: '5:00 AM ET',
-  location: 'Amalie Arena, Tampa, FL',
-  status: 'upcoming',
-  odds: 'TB -165 | O/U 5.5',
-  tickets: 'Tickets as low as $19',
-  tv: ['NHL Network'],
-  embedUrls: [
-    'https://topembed.pw/channel/NHLNET[USA]',
-    'https://topembed.pw/channel/NHLNET[USA]',
-    'https://topembed.pw/channel/NHLNET[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_4',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Dallas Stars',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/dal.png',
-  awayTeam: 'New York Rangers',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png',
-  date: 'Nov 18, 2025',
-  time: '6:00 AM ET',
-  location: 'American Airlines Center, Dallas, TX',
-  status: 'upcoming',
-  odds: 'DAL -165 | O/U 6.5',
-  tickets: 'Tickets as low as $22',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_5',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Winnipeg Jets',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png',
-  awayTeam: 'Columbus Blue Jackets',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cbj.png',
-  date: 'Nov 18, 2025',
-  time: '6:00 AM ET',
-  location: 'Canada Life Centre, Winnipeg, MB',
-  status: 'upcoming',
-  odds: 'WPG -195 | O/U 6.5',
-  tickets: 'Tickets as low as $26',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_6',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Chicago Blackhawks',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/chi.png',
-  awayTeam: 'Calgary Flames',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png',
-  date: 'Nov 18, 2025',
-  time: '6:30 AM ET',
-  location: 'United Center, Chicago, IL',
-  status: 'upcoming',
-  odds: 'CHI -110 | O/U 5.5',
-  tickets: 'Tickets as low as $30',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_7',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'Vegas Golden Knights',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png',
-  awayTeam: 'New York Islanders',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png',
-  date: 'Nov 18, 2025',
-  time: '8:00 AM ET',
-  location: 'T-Mobile Arena, Las Vegas, NV',
-  status: 'upcoming',
-  odds: 'VGK -140 | O/U 6.5',
-  tickets: 'Tickets as low as $33',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-},
-{
-  id: 'nhl_8',
-  league: 'NHL',
-  leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
-  homeTeam: 'San Jose Sharks',
-  homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sj.png',
-  awayTeam: 'Utah Hockey Club',
-  awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/uta.png',
-  date: 'Nov 18, 2025',
-  time: '8:00 AM ET',
-  location: 'SAP Center, San Jose, CA',
-  status: 'upcoming',
-  odds: 'UTA -140 | O/U 6.5',
-  tickets: 'Tickets as low as $19',
-  tv: ['ESPN+'],
-  embedUrls: [
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]',
-    'https://topembed.pw/channel/ESPN+[USA]'
-  ],
-  channelNames: [
-    'NHL Channel 1 (HD)',
-    'NHL Channel 2 (Backup)',
-    'NHL Channel 3 (Mobile)'
-  ]
-}
+      id: 'nhl_1',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Toronto Maple Leafs',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tor.png',
+      awayTeam: 'St. Louis Blues',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/stl.png',
+      date: 'Nov 18, 2025',
+      time: '5:00 AM ET',
+      location: 'Scotiabank Arena, Toronto, ON',
+      status: 'upcoming',
+      odds: 'TOR -125 | O/U 5.5',
+      tickets: 'Tickets as low as $65',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_2',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Detroit Red Wings',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/det.png',
+      awayTeam: 'Seattle Kraken',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sea.png',
+      date: 'Nov 18, 2025',
+      time: '5:00 AM ET',
+      location: 'Little Caesars Arena, Detroit, MI',
+      status: 'upcoming',
+      odds: 'DET -170 | O/U 5.5',
+      tickets: 'Tickets as low as $13',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_3',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Tampa Bay Lightning',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/tb.png',
+      awayTeam: 'New Jersey Devils',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nj.png',
+      date: 'Nov 18, 2025',
+      time: '5:00 AM ET',
+      location: 'Amalie Arena, Tampa, FL',
+      status: 'upcoming',
+      odds: 'TB -165 | O/U 5.5',
+      tickets: 'Tickets as low as $19',
+      tv: ['NHL Network'],
+      embedUrls: [
+        'https://topembed.pw/channel/NHLNET[USA]',
+        'https://topembed.pw/channel/NHLNET[USA]',
+        'https://topembed.pw/channel/NHLNET[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_4',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Dallas Stars',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/dal.png',
+      awayTeam: 'New York Rangers',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png',
+      date: 'Nov 18, 2025',
+      time: '6:00 AM ET',
+      location: 'American Airlines Center, Dallas, TX',
+      status: 'upcoming',
+      odds: 'DAL -165 | O/U 6.5',
+      tickets: 'Tickets as low as $22',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_5',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Winnipeg Jets',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png',
+      awayTeam: 'Columbus Blue Jackets',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cbj.png',
+      date: 'Nov 18, 2025',
+      time: '6:00 AM ET',
+      location: 'Canada Life Centre, Winnipeg, MB',
+      status: 'upcoming',
+      odds: 'WPG -195 | O/U 6.5',
+      tickets: 'Tickets as low as $26',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_6',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Chicago Blackhawks',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/chi.png',
+      awayTeam: 'Calgary Flames',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png',
+      date: 'Nov 18, 2025',
+      time: '6:30 AM ET',
+      location: 'United Center, Chicago, IL',
+      status: 'upcoming',
+      odds: 'CHI -110 | O/U 5.5',
+      tickets: 'Tickets as low as $30',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_7',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'Vegas Golden Knights',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png',
+      awayTeam: 'New York Islanders',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png',
+      date: 'Nov 18, 2025',
+      time: '8:00 AM ET',
+      location: 'T-Mobile Arena, Las Vegas, NV',
+      status: 'upcoming',
+      odds: 'VGK -140 | O/U 6.5',
+      tickets: 'Tickets as low as $33',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    },
+    {
+      id: 'nhl_8',
+      league: 'NHL',
+      leagueLogo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png',
+      homeTeam: 'San Jose Sharks',
+      homeLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/sj.png',
+      awayTeam: 'Utah Hockey Club',
+      awayLogo: 'https://a.espncdn.com/i/teamlogos/nhl/500/uta.png',
+      date: 'Nov 18, 2025',
+      time: '8:00 AM ET',
+      location: 'SAP Center, San Jose, CA',
+      status: 'upcoming',
+      odds: 'UTA -140 | O/U 6.5',
+      tickets: 'Tickets as low as $19',
+      tv: ['ESPN+'],
+      embedUrls: [
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]',
+        'https://topembed.pw/channel/ESPN+[USA]'
+      ],
+      channelNames: [
+        'NHL Channel 1 (HD)',
+        'NHL Channel 2 (Backup)',
+        'NHL Channel 3 (Mobile)'
+      ]
+    }
+
 
   ];
 
