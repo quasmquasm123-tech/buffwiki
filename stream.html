@@ -375,14 +375,14 @@
                 height: auto;
                 min-height: 90px;
             }
-            
+
             .ad-space-square {
                 width: 100%;
                 max-width: 300px;
                 height: auto;
                 min-height: 250px;
             }
-            
+
             .ad-space-tall {
                 width: 100%;
                 max-width: 160px;
@@ -540,6 +540,8 @@
                 </script>
                 <script type="text/javascript"
                     src="https://www.highperformanceformat.com/4a77043e555033337ff59e8b6c5b512f/invoke.js"></script>
+                <script type="text/javascript"
+                    src="https://pl28083419.effectivegatecpm.com/c3/db/b8/c3dbb8201f41aac1e0b1ae0913a753a0.js"></script>
             </div>
 
             <div class="ad-space ad-space-tall">
@@ -824,7 +826,7 @@
         window.switchStream = function (streamUrl, streamName) {
             const iframe = document.getElementById('mainStream');
             const playOverlay = document.getElementById('playOverlay');
-            
+
             iframe.src = streamUrl;
             // Show overlay again when switching streams
             playOverlay.style.display = 'flex';
@@ -854,14 +856,14 @@
             const playOverlay = document.getElementById('playOverlay');
 
             // Play overlay button - FIX FOR IFRAME CLICK ISSUE
-            playOverlayBtn.addEventListener('click', function() {
+            playOverlayBtn.addEventListener('click', function () {
                 // Hide overlay
                 playOverlay.style.display = 'none';
-                
+
                 // Try to play the iframe (for some players this works)
                 const iframe = document.getElementById('mainStream');
                 iframe.focus();
-                
+
                 showNotification('Stream started. Use player controls for playback.');
             });
 
@@ -932,7 +934,7 @@
             });
 
             // Auto-hide overlay after 5 seconds if user clicks anywhere
-            document.addEventListener('click', function() {
+            document.addEventListener('click', function () {
                 if (playOverlay.style.display !== 'none') {
                     setTimeout(() => {
                         if (playOverlay.style.display !== 'none') {
